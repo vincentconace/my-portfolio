@@ -185,6 +185,11 @@ img{
     align-items: center;
 }
 
+.nav__logo-v{
+    width: 30px;
+    margin-right: -18px;
+}
+
 .nav__logo,
 .nav__toggle{
     color: var(--title-color);
@@ -780,7 +785,20 @@ img{
 
 /*==================== CONTACT ME ====================*/
 .contact__container{
-    row-gap: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contact__informations{
+    background-color: var(--container-color);
+    padding: 5rem 5rem 3rem 5rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,.15);
+    transition: .3s;
+}
+
+.contact__informations:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,.15);
 }
 
 .contact__information{
